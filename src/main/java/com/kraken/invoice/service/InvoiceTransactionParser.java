@@ -125,7 +125,7 @@ public class InvoiceTransactionParser {
         return map;
     }
 
-    public static Invoice mapToEntity(InvoiceDto dto) {
+    public  Invoice mapToEntity(InvoiceDto dto) {
         Invoice invoice = new Invoice();
         BeanUtils.copyProperties(dto, invoice);
         List<Transaction> txns = dto.getTransactions().stream().map(txnDto -> {
