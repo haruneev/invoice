@@ -34,10 +34,11 @@ To run this project locally, you'll need:
 
 ## Steps to get the code running
 
-* Checkout the code from Github
+* Unzip the project to any local directory and Open a terminal in the root project folder(or  Checkout the code from 
+  Github url: git clone https://github.com/haruneev/invoice.git)
 * Go to the terminal under `/invoice`
-* Execute `./gradlew composeUp` to start Postgres DB
-* Execute `./gradlew bootRun` to start the application
+* Execute `./gradlew composeUp`  to start Postgres DB (or `gradlew composeUp` for Windows cmd)
+* Execute `./gradlew bootRun`  to start the application (or `gradlew bootRun` for Windows cmd)
 ### Application Base URL
 
 Base URL is exposed at 8080: **[Base URL](http://localhost:8080)**
